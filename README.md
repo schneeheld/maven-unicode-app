@@ -4,11 +4,11 @@ Simple maven unicode app for testing Jenkins multibranch pipelines
 
 ## Simple maven project: unicode hello
 
-Start a project folder
+Start a project folder, for example
 
 ```
-mkdir maven-unicode-hello
-cd maven-unicode-hello
+mkdir maven-unicode-app
+cd maven-unicode-app
 ```
 Generate a new maven project
 
