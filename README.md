@@ -2,7 +2,7 @@
 Simple maven unicode app for testing Jenkins multibranch pipelines
 
 
-## Code
+## Simple maven project: unicode hello
 
 Start a project folder
 
@@ -13,7 +13,8 @@ cd maven-unicode-hello
 Generate a new maven project
 
 ```
-mvn archetype:generate -DgroupId=com.unicode.hello -DartifactId=unicode-hello -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.unicode.hello -DartifactId=unicode-hello \
+   -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 cd unicode-hello
 mvn compile
